@@ -1,0 +1,28 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.4
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/ParameterLists:
+  Max: 7
+
+Style/Documentation:
+  Enabled: false
+
+Naming/PredicateMethod:
+  Enabled: false
+
+Naming/MethodParameterName:
+  MinNameLength: 1
